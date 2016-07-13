@@ -1,0 +1,7 @@
+@charset "utf-8";
+.ui-dialog {
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+}
