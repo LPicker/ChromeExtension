@@ -1,9 +1,12 @@
 {
   "manifest_version": 2,
 
-  "name": "One-click Kittens",
+  "name": "LPicker 到此一游！",
   "description": "This extension demonstrates a browser action with kittens.",
   "version": "1.0",
+
+  "background": { "scripts": ["background.js"] },
+  "content": { "scripts": ["content.js"] },
 
   "permissions": [
     "https://secure.flickr.com/"
